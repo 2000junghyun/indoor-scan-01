@@ -1,0 +1,13 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-10-31T00:38:09.300715+09:00",
+  "ArtifactName": "insecure-ec2.tf",
+  "ArtifactType": "terraform",
+  "Results": [
+    {
+      "Target": "insecure-ec2.tf",
+      "Class": "config",
+      "Type": "terraform"
+    }
+  ]
+}

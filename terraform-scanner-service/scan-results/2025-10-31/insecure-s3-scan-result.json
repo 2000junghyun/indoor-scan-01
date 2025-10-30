@@ -1,0 +1,31 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-10-31T00:50:21.673651+09:00",
+  "ArtifactName": "insecure-s3.tf",
+  "ArtifactType": "terraform",
+  "Results": [
+    {
+      "Target": "insecure-s3.tf",
+      "Class": "config",
+      "Type": "terraform",
+      "Misconfigurations": [
+        {
+          "Type": "Terraform Security Check",
+          "ID": "custom.s3.encryption",
+          "AVDID": "custom.s3.encryption",
+          "Title": "Security Check",
+          "Description": "",
+          "Message": "S3 bucket 'example' does not have encryption enabled",
+          "Namespace": "custom.s3.encryption",
+          "Query": "data.custom.s3.encryption.deny",
+          "Resolution": "",
+          "Severity": "MEDIUM",
+          "PrimaryURL": "https://avd.aquasec.com/misconfig/custom.s3.encryption",
+          "References": null,
+          "Status": "FAIL",
+          "Layer": {}
+        }
+      ]
+    }
+  ]
+}

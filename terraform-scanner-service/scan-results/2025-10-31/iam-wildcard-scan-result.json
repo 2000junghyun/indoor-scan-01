@@ -1,0 +1,13 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-10-31T00:45:11.305924+09:00",
+  "ArtifactName": "iam-wildcard.tf",
+  "ArtifactType": "terraform",
+  "Results": [
+    {
+      "Target": "iam-wildcard.tf",
+      "Class": "config",
+      "Type": "terraform"
+    }
+  ]
+}
